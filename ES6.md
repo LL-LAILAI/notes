@@ -462,7 +462,7 @@ runner(function *(){
 });
 ```
 ```javascript
-//借助generator的辅助函数runner
+//generator需借助辅助函数runner
 function runner(_gen){
   return new Promise((resolve, reject)=>{
     var gen=_gen();
